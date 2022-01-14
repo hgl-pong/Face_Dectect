@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: 何国灵
-          body: (完成内容在README.md文件)项目地址:https://github.com/hgl-pong/Face_Detect.git
+          body: (完成内容在README.md文件)项目地址:https://github.com/hgl-pong/Face_Dectect.git
           to: 2319100642@qq.com
           from: GitHub Actions
           content_type: text/html

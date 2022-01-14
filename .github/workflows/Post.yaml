@@ -1,0 +1,25 @@
+name: 'GitHub Actions Email Bot'
+ 
+
+on:
+  push:
+  
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: 'Send mail'
+        uses: dawidd6/action-send-mail@master
+        with:
+          server_address: smtp.qq.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 何国灵
+          body: (完成内容在README.md文件)项目地址:https://github.com/hgl-pong/Face_Detect.git
+          to: 2319100642@qq.com
+          from: GitHub Actions
+          content_type: text/html
+  

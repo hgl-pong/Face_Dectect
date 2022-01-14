@@ -14,7 +14,7 @@ use_mode=0    #使用模式，当为0时为使用groundtruth人工标注数据�
 
 #——————openCv追踪方法3.4
 tracker_types = ['KCF', 'TLD']  #'KCF', 'TLD'
-tracker_type = tracker_types[1]
+tracker_type = tracker_types[0]
 global tracker
 # 创建跟踪器
 if tracker_type == 'KCF':

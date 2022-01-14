@@ -192,9 +192,9 @@ while True:
            cv2.putText(curframe, "Tracking failed detected", (100, 80), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 0, 255),2)
         
     # 展示tracker类型
-    cv2.putText(curframe, tracker_type+"Tracker", (100, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 255, 0), 2)
+    cv2.putText(curframe, tracker_type+"Tracker", (100, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (10, 255, 0), 2)
     # 展示FPS
-    cv2.putText(curframe, "FPS:"+str(fps), (100, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 255, 0), 2)
+    cv2.putText(curframe, "FPS:"+str(fps), (100, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (10, 255, 0), 2)
     # Result
     cv2.imshow("Face_Tracking",curframe)
     # 等待渲染完成继续下一帧

@@ -1,10 +1,3 @@
-"""
-程序名称：GL_textures02.py
-编程: dalong10
-功能: 二维纹理与颜色混合的实现
-参考资料： https://blog.csdn.net/wangdingqiaoit/article/details/51457675
-"""
-
 import glfw
 from OpenGL.GL import *
 from OpenGL.GL.shaders import compileProgram, compileShader

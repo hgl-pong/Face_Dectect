@@ -4,9 +4,7 @@ opengl
 glfw
 ###########部署步骤
 1. 安装opencv
-   、、、
     pip install opencv-contrib-python==3.4.8.29 -i https://pypi.tuna.tsinghua.edu.cn/simple
-    、、、
 
 2. 安装opengl
     pip install pyopengl 
